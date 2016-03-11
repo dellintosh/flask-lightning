@@ -16,8 +16,9 @@ def _get_by_key(key='current'):
     return redis_store.get('{}:index:{}'.format(project, key))
 
 
-@application.route('/')
-def index():
+@application.route('/', defaults={'path': ''})
+@application.route('/<path:path>')
+def index(path):
     revision = request.args.get('revision')
     if not revision:
         revision = _get_by_key('current').decode()
