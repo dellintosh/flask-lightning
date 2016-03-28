@@ -12,7 +12,7 @@ redis_store = FlaskRedis(application)
 
 
 def _get_by_key(key='current'):
-    project = application.config.get('PROJECT_NAME')
+    project = application.config.get('APP_NAME')
     return redis_store.get('{}:index:{}'.format(project, key))
 
 
