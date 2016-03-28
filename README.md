@@ -3,7 +3,7 @@ Ember lightning hosting for https://github.com/ember-cli/ember-cli-deploy writte
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dellintosh/flask-lightning)
 
-The image responds to these environment variables:
+The application expects these environment variables:
 
 ### `APP_NAME`
 
