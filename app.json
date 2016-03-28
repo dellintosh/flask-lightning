@@ -1,0 +1,20 @@
+{
+    "name": "flask-lightning",
+    "description": "Ember lightning hosting for http://ember-cli.github.io/ember-cli-deploy/ written in Flask",
+    "keywords" : [
+        "ember",
+        "lightning",
+        "hosting",
+        "deploy"
+    ],
+    "env": {
+        "APP_NAME": {
+            "description": "Name of your EmberJS app.",
+            "value": ""
+        },
+        "REDIS_URL": {
+            "description": "Redis URL",
+            "value": ""
+        }
+    }
+}
