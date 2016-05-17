@@ -1,4 +1,7 @@
 # flask-lightning
+
+[![Requirements Status](https://requires.io/github/dellintosh/flask-lightning/requirements.svg?branch=master)](https://requires.io/github/dellintosh/flask-lightning/requirements/?branch=master)
+
 Ember lightning hosting for https://github.com/ember-cli/ember-cli-deploy written in Flask (http://flask.pocoo.org)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dellintosh/flask-lightning)
